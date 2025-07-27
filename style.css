@@ -334,6 +334,7 @@
         border: none;
         margin-left: 20px;
     }
+    
     .one span{
         display: inline-block;
         font-size: 20px;
@@ -347,9 +348,12 @@
     .list li {
       
       text-decoration: underline;
+      list-style: none;
       margin-bottom: 10px ;
     }
-
+.left{
+    margin-left:150px ;
+}
 /* This is all media querry */
 
     @media screen and (max-width:1280px) {
@@ -424,7 +428,7 @@
             width: auto;
             
         }
-        .question{
+        .question, .left{
             margin-left: 100px;
             margin-right: 100px;
         }
@@ -525,7 +529,7 @@
                 padding-bottom: 80px;
             }
         }
-        .question{
+        .question, .left{
             margin-left: 50px;
             margin-right: 50px;
         }
@@ -633,7 +637,7 @@
             margin-right: 20px;
             margin-left: 20px;
         }
-        .question{
+        .question, .left{
             margin-left: 20px;
             margin-right: 20px;
         }

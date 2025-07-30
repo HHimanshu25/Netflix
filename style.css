@@ -353,8 +353,28 @@
     }
 .left{
     margin-left:150px ;
+    
 }
 /* This is all media querry */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     @media screen and (max-width:1280px) {
         .logo {

@@ -1,13 +1,14 @@
 window.addEventListener('load', () => {
-  document.querySelectorAll('.down-but').forEach(function(el) {
+  document.querySelectorAll('.down-but').forEach(function (el) {
     el.classList.remove('rotate');
   });
 });
 
-function handleDownButClick(event) {
-  event.currentTarget.classList.toggle('rotate');
+
+let downshift=(val)=>{
+  document.querySelector(`.quin${val}`).classList.toggle('ques-out')
+  document.querySelector(`.r${val}`).classList.toggle('rotate')
+  document.querySelector(`.r${val}`).classList.toggle('rorev')
 }
 
-document.querySelectorAll('.down-but').forEach(function(el) {
-  el.addEventListener('click', handleDownButClick);
-});
+

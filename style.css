@@ -45,7 +45,7 @@ header {
     position: relative;
     background-image: url(assent/image/bg.jpg);
     height: 750px;
-    width: 99vw;
+    width: 100vw;
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
@@ -62,7 +62,7 @@ header {
     background-color: black;
     position: absolute;
     height: 750px;
-    width: 99vw;
+    width: 100vw;
     z-index: 1;
     top: 0;
     opacity: 0.74;
@@ -123,7 +123,7 @@ header {
 .trending {
     background-color: black;
     color: white;
-    width: 99vw;
+    width: 100vw;
 
 
 }
@@ -216,7 +216,7 @@ header {
 .reson {
     background-color: black;
     color: white;
-    width: 99vw;
+    width: 100vw;
     padding-bottom: 30px;
 }
 
@@ -333,10 +333,7 @@ header {
     background-color: #333;
     font-size: 25px;
     padding: 20px;
-    /* margin-bottom: 10px; */
-    /* display: none; */
-    transform: translatey();
-    transition: all 0.3s linear;
+ 
 }
 .ques-out{
     display:none;    
@@ -516,7 +513,7 @@ header {
         margin-right: 100px;
     }
 
-    .ques {
+    .ques ,.ques-in{
         width: auto;
         font-size: 20px;
         padding: 15px;
@@ -623,7 +620,7 @@ header {
         margin-right: 50px;
     }
 
-    .ques {
+    .ques ,.ques-in{
         width: auto;
         font-size: 18px;
         padding: 10px;
@@ -738,7 +735,7 @@ header {
         margin-right: 20px;
     }
 
-    .ques {
+    .ques ,.ques-in{
         width: auto;
         font-size: 16px;
         padding: 10px;

@@ -150,7 +150,7 @@ header {
 .movi {
     height: 300px;
     min-width: 175px;
-    margin: 10px;
+    margin: 20px;
     background-color: wheat;
     border-radius: 20px;
     background-position: center;
@@ -723,6 +723,7 @@ header {
 
     .movi {
         height: 150px;
+        margin: 10px;
     }
 
     .reases {

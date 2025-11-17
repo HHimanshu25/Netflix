@@ -17,7 +17,7 @@ nav {
 
 
 .logo {
-    background-image: url(assent/image/logo.svg);
+    background-image: url(./assets/image/bg.jpg);
     width: 150px;
     height: 40px;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ nav {
 
 header {
     position: relative;
-    background-image: url(assent/image/bg.jpg);
+    background-image: url(./assets/image/bg.jpg);
     height: 750px;
     width: 100vw;
     background-repeat: no-repeat;
@@ -172,44 +172,44 @@ header {
 }
 
 .movi1 {
-    background-image: url(assent/image/1.webp);
+    background-image: url(./assets/image/1.webp);
 
 }
 
 .movi2 {
-    background-image: url(assent/image/2.webp);
+    background-image: url(./assets/image/2.webp);
 }
 
 .movi3 {
-    background-image: url(assent/image/3.webp);
+    background-image: url(./assets/image/3.webp);
 }
 
 .movi4 {
-    background-image: url(assent/image/4.webp);
+    background-image: url(./assets/image/4.webp);
 }
 
 .movi5 {
-    background-image: url(assent/image/5.webp);
+    background-image: url(./assets/image/5.webp);
 }
 
 .movi6 {
-    background-image: url(assent/image/6.webp);
+    background-image: url(./assets/image/6.webp);
 }
 
 .movi7 {
-    background-image: url(assent/image/7.webp);
+    background-image: url(./assets/image/7.webp);
 }
 
 .movi8 {
-    background-image: url(assent/image/8.webp);
+    background-image: url(./assets/image/8.webp);
 }
 
 .movi9 {
-    background-image: url(assent/image/9.webp);
+    background-image: url(./assets/image/9.webp);
 }
 
 .movi10 {
-    background-image: url(assent/image/10.webp);
+    background-image: url(./assets/image/10.webp);
 }
 
 
@@ -261,19 +261,19 @@ header {
 }
 
 .image1 {
-    background-image: url(assent/image/img1.png);
+    background-image: url(./assets/image/img1.png);
 }
 
 .image2 {
-    background-image: url(assent/image/img2.png);
+    background-image: url(./assets/image/img2.png);
 }
 
 .image3 {
-    background-image: url(assent/image/img3.png);
+    background-image: url(./assets/image/img3.png);
 }
 
 .image4 {
-    background-image: url(assent/image/img4.png);
+    background-image: url(./assets/image/img4.png);
 }
 
 .quest {

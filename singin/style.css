@@ -1,6 +1,7 @@
-:root{
-    --marginbottom:1rem;
+:root {
+    --marginbottom: 1rem;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +22,7 @@ nav {
 
 
 .logo {
-    background-image: url('./assets/image/logo.svg');
+    background-image: url('../assets/image/logo.svg');
     width: 150px;
     height: 40px;
     background-repeat: no-repeat;
@@ -47,7 +48,7 @@ nav {
 
 header {
     position: relative;
-    background-image: url('./assets/image/bg.jpg');
+    background-image: url('../assets/image/bg.jpg');
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -72,37 +73,41 @@ header {
     opacity: 0.74;
 }
 
-.txt{
-    background-color:#00000080;
-    width:600px;
+.txt {
+    margin-top: 40px;
+    background-color: #00000080;
+    width: 600px;
     height: 500px;
     z-index: 2;
-    padding: 3rem;    
+    padding: 3rem;
 
 }
-.head-txt{
+
+.head-txt {
     color: #fff;
-    font-size:2.5rem;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
-input{
+
+input {
     outline: none;
-    background-color:  #00000054;
+    background-color: #00000054;
     border: 1px solid gray;
     width: 100%;
     height: 50px;
     border-radius: 5px;
     margin-bottom: 1rem;
-color: #fff;
-font-size: 1.2rem;
-padding-left: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    padding-left: 10px;
 
 
 
-    
+
 }
-.signin{
+
+.signin {
     background-color: red;
     color: white;
     width: 100%;
@@ -111,15 +116,17 @@ padding-left: 10px;
     border-radius: 5px;
     height: 50px;
     font-size: 1.2rem;
-    font-weight: 500;    
+    font-weight: 500;
 }
-.or{
+
+.or {
     color: gray;
     font-size: 1.5rem;
     text-align: center;
     padding: 1rem 0rem;
 }
-.another{
+
+.another {
     background-color: #d3d3d340;
     color: white;
     width: 100%;
@@ -128,21 +135,38 @@ padding-left: 10px;
     border: none;
     outline: none;
 }
-a{
+
+a {
     color: white;
     text-align: center;
     display: block;
     padding: 1rem 0rem;
 }
+
 @media (max-width:840px) {
-    .txt{
+    .txt {
         width: 80vw;
         margin: 10px;
-    }    
+
+            margin-top: 40px;
+    }
 }
-@media (max-width:400px) {
+
+@media (max-width:600px) {
+    .bgdark {
+        opacity: 1;
+
+    }
     .txt{
+        background-color: transparent;
+    }
+
+
+}
+
+@media (max-width:400px) {
+    .txt {
         width: 70vw;
         margin: 10px;
-    }    
+    }
 }

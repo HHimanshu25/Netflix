@@ -1,0 +1,148 @@
+:root{
+    --marginbottom:1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scrollbar-width: none;
+
+}
+
+nav {
+    top: 0;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    position: absolute;
+    width: 90vw;
+    z-index: 2;
+}
+
+
+.logo {
+    background-image: url('./assets/image/logo.svg');
+    width: 150px;
+    height: 40px;
+    background-repeat: no-repeat;
+
+
+}
+
+.nav-but-laun {
+    padding: 4px 30px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    margin-right: 10px;
+}
+
+.nav-but-butt {
+    font-size: 15px;
+    padding: 7px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+header {
+    position: relative;
+    background-image: url('./assets/image/bg.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    overflow-x: hidden;
+    box-shadow: 0px 10px 100px 5px rebeccapurple
+}
+
+.bgdark {
+    background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    top: 0;
+    opacity: 0.74;
+}
+
+.txt{
+    background-color:#00000080;
+    width:600px;
+    height: 500px;
+    z-index: 2;
+    padding: 3rem;    
+
+}
+.head-txt{
+    color: #fff;
+    font-size:2.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+input{
+    outline: none;
+    background-color:  #00000054;
+    border: 1px solid gray;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+color: #fff;
+font-size: 1.2rem;
+padding-left: 10px;
+
+
+
+    
+}
+.signin{
+    background-color: red;
+    color: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;    
+}
+.or{
+    color: gray;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+.another{
+    background-color: #d3d3d340;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+}
+a{
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 1rem 0rem;
+}
+@media (max-width:840px) {
+    .txt{
+        width: 80vw;
+        margin: 10px;
+    }    
+}
+@media (max-width:400px) {
+    .txt{
+        width: 70vw;
+        margin: 10px;
+    }    
+}
